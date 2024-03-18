@@ -1,0 +1,39 @@
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+  }
+
+  .text button {
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    width: 200px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: 1s ease;
+    font-size: 16px;
+  }
+
+  .text button:hover {
+    border: 1px solid black;
+    background: white;
+    color: black;
+  }
+
+  .dice_btn {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    width: 150px;
+    padding: 10px 15px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid white;
+    transition: 1s ease;
+    border-radius: 10px;
+  }

@@ -1,0 +1,106 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 'poppins','sans-serif';
+}
+
+.container
+{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+    border: none;
+    border-bottom: 3px solid #D9D9D9;
+}
+
+ul
+{
+    color: #2E2E2E;
+    text-align: none;
+    list-style: none;
+    display: inline-flex;
+    gap: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button
+{
+    all: unset;
+    background-color: #D01C28;
+    color: white;
+    padding: 6px 16px;
+    border: none;
+    outline: none;
+}
+
+
+
+/* Hero Section */
+.hero
+{
+    display: flex;
+    height: calc(100vh-72px);
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+h2{
+    font-size: 108px;
+    line-height: 102px;
+}
+
+p{
+    color: gray;
+    width: 58%;
+    line-height: auto;
+}
+
+.hero-btn{
+    display: inline-flex;
+    gap: 40px;
+}
+
+button
+{
+    cursor: pointer;
+}
+
+.bottom-btn{
+    background: transparent;
+    color: gray;
+    border: 2px solid gray;
+}
+
+.icons
+{
+    margin-top: 16px;
+    display: flex;
+    gap: 24px;
+    cursor: pointer;
+}
+
+.shoe img{
+    transition: .4s transform ease-in-out;
+}
+
+.shoe:hover> img{
+    transform: translateY(-20px);
+}
+
